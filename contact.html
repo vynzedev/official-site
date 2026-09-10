@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect with VYNZE DEV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .connect-page {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #f9f9f9 0%, #ffffff 100%);
+            padding: 40px 20px;
+        }
+        .connect-box {
+            max-width: 550px;
+            width: 100%;
+            background: #ffffff;
+            border-radius: 16px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+            border: 1px solid #eaeaea;
+            padding: 40px 30px;
+            text-align: center;
+        }
+        .connect-title {
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: #111;
+            margin-bottom: 8px;
+        }
+        .connect-subtitle {
+            font-size: 1rem;
+            color: #666;
+            margin-bottom: 35px;
+        }
+        .social-cards {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+        .social-card {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            padding: 16px 24px;
+            border-radius: 12px;
+            text-decoration: none;
+            color: #111;
+            background: #fdfdfd;
+            border: 1px solid #e5e5e5;
+            transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+        }
+        .social-card:hover {
+            transform: translateY(-3px);
+            border-color: #000;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+        }
+        .card-icon {
+            width: 48px;
+            height: 48px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            background: #f0f0f0;
+            color: #111;
+            flex-shrink: 0;
+            transition: background 0.2s ease, color 0.2s ease;
+        }
+        .social-card:hover .card-icon {
+            background: #000;
+            color: #fff;
+        }
+        .card-info {
+            text-align: left;
+            flex-grow: 1;
+        }
+        .card-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            display: block;
+        }
+        .card-desc {
+            font-size: 0.85rem;
+            color: #777;
+        }
+        .card-arrow {
+            font-size: 1rem;
+            color: #bbb;
+            transition: transform 0.2s ease, color 0.2s ease;
+        }
+        .social-card:hover .card-arrow {
+            transform: translateX(4px);
+            color: #000;
+        }
+        .back-home {
+            display: inline-block;
+            margin-top: 30px;
+            font-size: 0.9rem;
+            color: #666;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .back-home:hover {
+            text-decoration: underline;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="connect-page">
+        <div class="connect-box">
+            <h1 class="connect-title">Reach Out to VYNZE</h1>
+            <p class="connect-subtitle">Pick your preferred app below to chat directly with us</p>
+
+            <div class="social-cards">
+                <!-- Discord -->
+                <a href="https://discord.gg/e5PndK9DX" target="_blank" rel="noopener noreferrer" class="social-card">
+                    <div class="card-icon">
+                        <i class="fab fa-discord"></i>
+                    </div>
+                    <div class="card-info">
+                        <span class="card-title">Discord</span>
+                        <span class="card-desc">Join Our Server</span>
+                    </div>
+                    <i class="fas fa-arrow-right card-arrow"></i>
+                </a>
+
+                <!-- Signal -->
+                <a href="https://signal.me/#eu/xMMKQNG9IUCZEMsua0S8aa8xgg11h_IqOzW73q8wBMA-O5iziJNCh4yOn45Hq4QW" target="_blank" rel="noopener noreferrer" class="social-card">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                            <path d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.38 5.08L2.1 21.9l4.98-1.25A9.94 9.94 0 0012 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm0 18c-1.6 0-3.11-.45-4.4-1.23l-.32-.19-3.08.77.8-3.01-.21-.34A7.95 7.95 0 014 12c0-4.41 3.59-8 8-8s8 3.59 8 8-3.59 8-8 8z"/>
+                        </svg>
+                    </div>
+                    <div class="card-info">
+                        <span class="card-title">Signal</span>
+                        <span class="card-desc">Encrypted direct messaging</span>
+                    </div>
+                    <i class="fas fa-arrow-right card-arrow"></i>
+                </a>
+
+                <!-- Instagram -->
+                <a href="https://www.instagram.com/vynzedev" target="_blank" rel="noopener noreferrer" class="social-card">
+                    <div class="card-icon">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <div class="card-info">
+                        <span class="card-title">Instagram</span>
+                        <span class="card-desc">DM US </span>
+                    </div>
+                    <i class="fas fa-arrow-right card-arrow"></i>
+                </a>
+            </div>
+
+            <a href="Vynze giveaway.html" class="back-home"><i class="fas fa-arrow-left"></i> Return to main site</a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!-- Work Section -->
+        <section class="section work">
+            <div class="section-content slide-up">
+                <h2 class="section-title">Recent Work</h2>
+                <div class="work-grid">
+                    <div class="work-item pulse-hover">
+                        <div class="work-image"></div>
+                        <h3 class="work-title">E-commerce Platform</h3>
+                        <p class="work-description">A minimalist's online store with focus on user experience</p>
+                    </div>
+                    <div class="work-item pulse-hover">
+                        <div class="work-image"></div>
+                        <h3 class="work-title">Portfolio Design</h3>
+                        <p class="work-description">Clean portfolio for a photographer with dark mode</p>
+                    </div>
+                    <div class="work-item pulse-hover">
+                        <div class="work-image"></div>
+                        <h3 class="work-title">Brand Identity</h3>
+                        <p class="work-description">Complete branding for a tech startup</p>
+                    </div>
+                </div>
+            </div>
+        </section>
